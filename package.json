@@ -1,0 +1,18 @@
+{
+  "name": "datos",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /app-registro-tareas",
+    "deploy": "gh-pages -d ./dist",
+    "build-and-deploy": "npm run build && npm run deploy"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.8.3"
+  },
+  "dependencies": {
+    "gh-pages": "5.0.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}

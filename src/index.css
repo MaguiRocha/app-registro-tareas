@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Roboto";
+}
+
+.root {
+  padding: 30px;
+  text-align: center;
+  background: #480274;
+  background: -webkit-linear-gradient(top left, #5f0299, #0f988c);
+  background: -moz-linear-gradient(top left, #5f0299, #3b9a92);
+  background: linear-gradient(to bottom right, #5f0299, #3b9a92);
+  color: rgb(199, 159, 242);
+  color: rgb(199, 159, 242);
+  min-height: 600px;
+}
+
+@media (min-width: 900px) {
+  .root {
+    padding: 50px 100px;
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+}
