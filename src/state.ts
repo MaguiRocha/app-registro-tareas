@@ -4,7 +4,7 @@ const state = {
       {
         id: 1,
         title:
-          "Este es un ejemplo de como se mostrará tu pendiente en la pantalla, si deseas, podés eliminarlo y comenzar a agregar tus tareas a realizar!<br>Saludos!",
+          "Este es un ejemplo de como se mostrará tu pendiente en la pantalla, si deseas, podés marcarlo como completo en la cajita blanca de acá al lado, o podés eliminarlo y comenzar a agregar tus tareas a realizar!<br>Saludos!",
         completed: false,
       },
       {
