@@ -1,0 +1,12 @@
+.lista {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  display: flex;
+}
+
+.title {
+  text-shadow: 2px 2px #ffffff5c;
+}
+
+/*# sourceMappingURL=index.48d1c085.css.map */

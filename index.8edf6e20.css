@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+.root {
+  text-align: center;
+  color: #c79ff2;
+  color: #c79ff2;
+  min-height: 600px;
+  background: linear-gradient(to bottom right, #5f0299, #3b9a92);
+  padding: 30px;
+}
+
+@media (min-width: 900px) {
+  .root {
+    grid-template-rows: auto auto;
+    padding: 50px 100px;
+    display: grid;
+  }
+}
+
+/*# sourceMappingURL=index.8edf6e20.css.map */
